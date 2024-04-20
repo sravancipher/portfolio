@@ -14,7 +14,7 @@ function Projects() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography >https://screenpoint.netlify.app/</Typography>
+          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}>https://screenpoint.netlify.app/</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -28,7 +28,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography >https://github.com/sravancipher/rguktorganizations.git</Typography>
+          <Typography sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}>https://github.com/sravancipher/rguktorganizations.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -42,7 +42,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography >https://github.com/sravancipher/myownott</Typography>
+          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}>https://github.com/sravancipher/myownott</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -59,7 +59,7 @@ function Projects() {
           <Typography > https://github.com/sravancipher/vizon.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}>
           Designed a website focused on animations using CSS and JavaScript
           </Typography>
         </AccordionDetails>
@@ -70,7 +70,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography >https://github.com/sravancipher/Blackjack.git</Typography>
+          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}>https://github.com/sravancipher/Blackjack.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -84,7 +84,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography > https://github.com/sravancipher/URLsaver.git</Typography>
+          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}> https://github.com/sravancipher/URLsaver.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -98,7 +98,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography >https://github.com/sravancipher/Movies_Counter.git</Typography>
+          <Typography sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }} >https://github.com/sravancipher/Movies_Counter.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -112,7 +112,7 @@ function Projects() {
           aria-controls="panel3-content"
           id="panel3-header"
         >
-          <Typography>Stress Detection through ML(Currently Working)</Typography>
+          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}>Stress Detection through ML(Currently Working)</Typography>
         </AccordionSummary>
       </Accordion>
     </div>
