@@ -1,5 +1,4 @@
 import './Home.css'
-import More from "./More";
 import {useState } from "react";
 import About from "./About";
 import More_Back from './More_Back';

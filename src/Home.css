@@ -1,8 +1,8 @@
 body{
     background-color:whitesmoke;
 }
-@media (max-width: 1000px) {
-    .row{
+@media (max-width: 768px) {
+    .ab{
         
         margin-top: 350px; 
         margin-left: 0; 

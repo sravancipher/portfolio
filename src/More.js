@@ -9,7 +9,7 @@ import Chip from '@mui/material/Chip';
 function More(props) {
     return (
         <>
-            <div className='container '>
+            <div className='container mt-5'>
                 <div className='row more' >
                     <div className='col-md-6' data-aos="fade-right" data-aos-duration="3000">
                         <h1 className='text-danger d-flex justify-content-center'>Education</h1>
