@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+    .footer{
+        position:relative;
+        top:300px;
+    }
+}

@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useState } from 'react';
+import Opening from './Opening';
+import Home from './Home';
+import More from './More';
+import Footer from './Footer';
 function App() {
+  let s1 = {
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    zIndex: -2
+}
+let s2 = {
+    width: "100%",
+    height: "100%",
+    objectFit: "cover"
+}
+  const[display,setDisplay]=useState(false);
+  function check(val){
+    setDisplay(val);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div style={s1}>
+                <video autoPlay muted loop style={s2}>
+                    <source src="homebg.mp4" type="video/mp4" />
+                </video>
+
+            </div>
+      {
+        display?(<Home/>):<Opening fn={check}/>
+        
+      }
+
+    </>
   );
 }
 

@@ -1,0 +1,37 @@
+import { useContext } from 'react';
+import {BrowserRouter, Link, Route, Routes} from 'react-router-dom';
+import Education from './Education'
+import Certificates from './Certificates'
+import Skills from './Skills'
+import Projects from './Projects'
+function Links({fn,fn2}){
+    return(
+        <>
+        <div className="btn-group w-100">
+        <div class="btn btn-danger" onClick={()=>{fn(true)}}><Link style={{textDecoration:"none",color:"white"}}to="/education">Education</Link></div>
+        <div class="btn btn-danger" onClick={()=>{fn2(true)}}><Link style={{textDecoration:"none",color:"white"}}to="/certificates">Certificates</Link></div>
+        <div class="btn btn-danger" ><Link style={{textDecoration:"none",color:"white"}}to="/skills">Skills</Link></div>
+        <div class="btn btn-danger" ><Link style={{textDecoration:"none",color:"white"}}to="/projects">Projects</Link></div>
+        </div>
+        </>
+    )
+}
+function More({fn,fn2}){
+    return(
+        <>
+        <BrowserRouter>
+           <Links fn={fn} fn2={fn2}/>
+           <Routes>
+           <Route exact path="/education" element={<Education/>}></Route>
+           <Route path="/certificates" element={<Certificates/>}></Route>
+           <Route path="/skills" element={<Skills/>}></Route>
+           <Route path="/projects" element={<Projects/>}></Route>
+           </Routes>
+        </BrowserRouter>
+
+        </>
+    )
+}
+export default More;
+
+
