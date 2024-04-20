@@ -7,7 +7,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 function Contact(props) {
     return (
         <>
-        <h1 className='justify-content-start' >I am <TextTypingAnimation /></h1>
+        <h1 className='justify-content-start' style={{width:"400px"}}>I am <span ><TextTypingAnimation /></span></h1>
                 <div class="card" style={{ width: "400px" }}  data-aos="fade-right" data-aos-duration="2000">
                     <h1 className="card-text d-block m-auto " style={{ color: "red" }} >Contact Me</h1>
                     <div class="card-body">

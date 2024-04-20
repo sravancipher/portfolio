@@ -37,7 +37,7 @@ function More(props) {
                 <Chip label="Back" size="large" onClick={() => {props.fn()}} sx={{bgcolor:"red"}}/>
                 <br />
             </Divider>
-            <span><Footer /></span>
+            <Footer />
         </>
     )
 }

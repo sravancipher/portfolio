@@ -13,10 +13,7 @@ function About({fn}) {
         <>
             <div className="container  align-content-center "  data-aos="fade-left" data-aos-duration="2000" style={{ height: "100vh", textAlign: "center" }}>
                 <div className="row justify-content-sm-center">
-                    <div className="col-sm-12 col-md-6  align-content-center ordr-1 ordr-md-0" >
-                             <Contact fn={fn}/>
-                    </div>
-                    <div className="col-sm-12 col-md-6  ordr-0 oder-md-1 ab">
+                    <div className="col-sm-12 col-md-6">
                         <div class="card" style={{ width: "400px" }}>
                             <img className="card-img-top img-responsive" src="profile1.jpeg" alt="Card image" style={{ width: "100%", height: "300px" }} />
                             <div class="card-body">
@@ -28,6 +25,9 @@ function About({fn}) {
                                 <Button variant="contained" className="bg-danger" onClick={handleOpenDocument} startIcon={< DownloadForOfflineOutlinedIcon />}>Download CV</Button>
                             </div>
                         </div>
+                    </div>
+                    <div className="col-sm-12 col-md-6  align-content-center " >
+                             <Contact fn={fn}/>
                     </div>
                 </div>
             </div>
