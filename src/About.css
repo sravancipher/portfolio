@@ -1,6 +1,14 @@
 @media (max-width: 782px) {
     .footer{
         position:relative;
-        top:320px;
+        top:340px;
+    }
+}
+@media (max-width: 768px) {
+    .row{
+        
+        margin-top: 0px; 
+        margin-left: 0; 
+        margin-right: 0; 
     }
 }
