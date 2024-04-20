@@ -14,7 +14,7 @@ function Projects() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography style={{fontWeight:"bold"}}>https://screenpoint.netlify.app/</Typography>
+          <Typography >https://screenpoint.netlify.app/</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -28,7 +28,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography style={{fontWeight:"bold"}}>https://github.com/sravancipher/rguktorganizations.git</Typography>
+          <Typography >https://github.com/sravancipher/rguktorganizations.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -42,7 +42,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography style={{fontWeight:"bold"}}>https://github.com/sravancipher/myownott</Typography>
+          <Typography >https://github.com/sravancipher/myownott</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -56,7 +56,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography style={{fontWeight:"bold"}}> https://github.com/sravancipher/vizon.git</Typography>
+          <Typography > https://github.com/sravancipher/vizon.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -70,7 +70,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography style={{fontWeight:"bold"}}>https://github.com/sravancipher/Blackjack.git</Typography>
+          <Typography >https://github.com/sravancipher/Blackjack.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -84,7 +84,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography style={{fontWeight:"bold"}}> https://github.com/sravancipher/URLsaver.git</Typography>
+          <Typography > https://github.com/sravancipher/URLsaver.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -98,7 +98,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography style={{fontWeight:"bold"}}>https://github.com/sravancipher/Movies_Counter.git</Typography>
+          <Typography >https://github.com/sravancipher/Movies_Counter.git</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
