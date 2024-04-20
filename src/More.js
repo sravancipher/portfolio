@@ -33,7 +33,7 @@ function More(props) {
                 </div>
             </div>
             <br />
-            <Divider sx={{border:"2px solid "}}>
+            <Divider >
                 <Chip label="Back" size="large" onClick={() => {props.fn()}} sx={{bgcolor:"red"}}/>
                 <br />
             </Divider>
