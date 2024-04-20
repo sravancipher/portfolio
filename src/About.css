@@ -1,7 +1,8 @@
 @media (max-width: 782px) {
     .footer{
         position:relative;
-        top:340px;
+        top:250px;
+        text-align: center;
     }
 }
 @media (max-width: 768px) {
