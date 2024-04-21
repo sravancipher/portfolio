@@ -11,8 +11,8 @@ import { useEffect } from "react";
 function About({fn}) {
     useEffect(() => {
         const isMobile = window.innerWidth <= 768; // Adjust the threshold as needed
-        if (!isMobile) {
-          AOS.init({ duration: 1000 }); // Initialize AOS with your desired options
+        if (isMobile) {
+          AOS.init({ duration: 0 }); // Initialize AOS with your desired options
         }
       }, []);
     const handleOpenDocument = () => {
