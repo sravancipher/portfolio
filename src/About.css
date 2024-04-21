@@ -12,7 +12,10 @@
         margin-left: 0; 
         margin-right: 0; 
     }
-    .card{
+    .card1{
+        width:100%;
+    }
+    .card2{
         width:100%;
     }
 }
