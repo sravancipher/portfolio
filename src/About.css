@@ -1,9 +1,11 @@
-@media (max-width: 768px) {
+@media (max-width: 782px) {
     .footer{
         position:relative;
         top:340px;
         text-align: center;
     }
+}
+@media (max-width: 768px) {
     .row{
         
         margin-top: 10px; 
