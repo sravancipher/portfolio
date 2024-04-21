@@ -30,7 +30,7 @@ function About({fn}) {
                 <div className="row ">
                     <div className="col-12 col-md-6">
                         <div className="card card1" style={{ width: "400px" }}>
-                            <img className="card-img-top img-responsive" src="profile1.jpeg" style={{ width: "100%", height: "300px" }} />
+                            <img className="card-img-top img-responsive mx-auto d-block mt-1" src="profile1.jpeg" style={{ width: "90%", height: "300px" }} />
                             <div class="card-body">
                                 <h4 class="card-title">POTNURU SRAVANKUMAR</h4>
                                 <p class="card-text">I am dedicated and enthusiastic full-stack Java developer with a passion for creating
