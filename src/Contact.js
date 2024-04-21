@@ -35,7 +35,7 @@ function Contact(props) {
                             <input type="text" class="form-control" value="https://www.linkedin.com/in/sravan-potnuru-a431a0215/" readonly />
                         </div>
                         <div class="btn-group w-100">
-                            <div href="mailto:sravanpotnuru24@gmail.com" class="btn btn-success ">Contact</div>
+                            <a href="mailto:sravanpotnuru24@gmail.com" class="btn btn-success ">Contact</a>
                             <div class="btn btn-danger" onClick={() => { props.fn(true) }}>More Details?</div>
                         </div>
                     </div>

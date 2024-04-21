@@ -6,7 +6,15 @@ import './More.css'
 import Footer from './Footer';
 import Divider from '@mui/material/Divider';
 import Chip from '@mui/material/Chip';
+import Avatar from '@mui/material/Avatar';
+import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
 function More(props) {
+    // const useStyles = makeStyles({
+    //     chipIcon: {
+    //       color: 'blue', 
+    //     },
+    //   });
+    //   const classes = useStyles();
     return (
         <>
             <div className='container mt-5'>
@@ -34,7 +42,7 @@ function More(props) {
             </div>
             <br />
             <Divider >
-                <Chip label="Back" size="large" onClick={() => {props.fn()}} sx={{bgcolor:"red"}}/>
+                <Chip   avatar={<Avatar><ArrowCircleLeftOutlinedIcon style={{ color: 'red' }}/></Avatar>} style={{ color: 'white' }}  label="Back" size="large" onClick={() => {props.fn()}} sx={{bgcolor:"red"}}/>
                 <br />
             </Divider>
             <Footer />
