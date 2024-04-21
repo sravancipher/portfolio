@@ -26,7 +26,7 @@ function About({fn}) {
     };
     return (
         <>
-            <div className="container  align-content-center "  data-aos="fade-right" dta-aos-duration="2000" style={{ height: "650px", textAlign: "center" }}>
+            <div className="container  align-content-center "  data-aos="fade-right" dta-aos-duration="2000" style={{ height: "650px", texAlign: "center" }}>
                 <div className="row justify-content-sm-center">
                     <div className="col-sm-12 col-md-6">
                         <div class="card" style={{ width: "400px" }}>
@@ -37,7 +37,7 @@ function About({fn}) {
                                     efficient and user-friendly web applications. Looking for an opportunity
                                     to contribute to an organization to gain hands-on experience.
                                 </p>
-                                <Button variant="contained" className="bg-danger" onClick={handleOpenDocument} startIcon={< DownloadForOfflineOutlinedIcon />}>Download CV</Button>
+                                <Button variant="contained" className="bg-danger w-100" onClick={handleOpenDocument} startIcon={< DownloadForOfflineOutlinedIcon />}>Download CV</Button>
                             </div>
                         </div>
                     </div>
