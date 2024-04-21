@@ -26,11 +26,11 @@ function About({fn}) {
     };
     return (
         <>
-            <div className="container mt-5"  dat-aos="fade-right" data-aos-duration="2000" style={{ height: "650px" }}>
+            <div className="container mt-5"  data-aos="fade-right" data-aos-duration="2000" style={{ height: "650px" }}>
                 <div className="row ">
                     <div className="col-12 col-md-6">
-                        <div className="card card1" style={{ width: "400px" }}>
-                            <img className="card-img-top img-responsive" src="profile1.jpeg" alt="Card image" style={{ width: "100%", height: "300px" }} />
+                        <div className="card card1" style={{ width: "90%" }}>
+                            <img className="card-img-top img-fluid" src="profile1.jpeg" style={{ width: "100%", height: "300px" }} />
                             <div class="card-body">
                                 <h4 class="card-title">POTNURU SRAVANKUMAR</h4>
                                 <p class="card-text">I am dedicated and enthusiastic full-stack Java developer with a passion for creating

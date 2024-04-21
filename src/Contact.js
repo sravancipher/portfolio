@@ -10,7 +10,7 @@ function Contact(props) {
     return (
         <>
         <h1 className='text-center' style={{width:"400px"}}>I am <span ><TextTypingAnimation /></span></h1>
-                <div className="card card2" style={{ width: "400px" }}  data-os="fade-left" data-aos-duraton="2000">
+                <div className="card card2" style={{ width: "90%" }}  data-aos="fade-left" data-aos-duraton="2000">
                     <h1 className="card-text d-block m-auto " style={{ color: "red" }} >Contact Me</h1>
                     <div class="card-body">
                         <div class="input-group mb-3">
