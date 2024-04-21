@@ -12,9 +12,14 @@
         margin-left: 0; 
         margin-right: 0; 
     }
+    
+}
+@media (max-width: 782px) {
     .card1{
         width:100%;
     }
+}
+@media (max-width: 782px) {
     .card2{
         width:100%;
     }
