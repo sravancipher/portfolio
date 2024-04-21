@@ -6,9 +6,14 @@ import Footer from "./Footer";
 import './About.css'
 function About({fn}) {
     const handleOpenDocument = () => {
-        const documentUrl = 'https://drive.google.com/file/d/1oNwyr5mOW3yq_geKTdVOpfc21i0CEHm5/view';
-        window.open(documentUrl, '_blank');
-    }; 
+        const pdfUrl = "sravanpotnuru@GeneralCV.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "sravanpotnuru_CV.pdf"; // specify the filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <>
             <div className="container  align-content-center "  data-aos="fade-left" data-aos-duration="2000" style={{ height: "650px", textAlign: "center" }}>
