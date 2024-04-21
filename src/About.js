@@ -26,7 +26,7 @@ function About({fn}) {
     };
     return (
         <>
-            <div className="container m-5"  data-aos="fade-right" data-aos-duration="2000" style={{ height: "650px" }}>
+            <div className="container-fluid mt-5"  data-aos="fade-right" data-aos-duration="2000" style={{ height: "650px" }}>
                 <div className="row ">
                     <div className="col-12 col-md-6">
                         <div className="card card1" style={{ width: "400px" }}>
