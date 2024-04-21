@@ -14,25 +14,25 @@ function Contact(props) {
                     <h1 className="card-text d-block m-auto " style={{ color: "red" }} >Contact Me</h1>
                     <div class="card-body">
                         <div class="input-group mb-3">
-                            <span class="input-group-text"><AccountCircle /></span>
+                            <span class="input-group-text"><a href="#"><AccountCircle /></a></span>
                             <input type="text" class="form-control" value="POTNURU" readonly />
                             <input type="text" class="form-control" value="SRAVAN KUMAR" readonly />
                         </div>
                         <div class="input-group mb-3">
                             <div class="input-group-text">
-                                <EmailIcon />
+                                <a href="#"><EmailIcon /></a>
                             </div>
                             <input type="mail" class="form-control" value="sravanpotnuru24@gmail.com" readonly />
                         </div>
                         <div class="input-group mb-3">
                             <div class="input-group-text">
-                                <PhoneIcon />
+                                <a href="#"><PhoneIcon /></a>
                             </div>
                             <input type="text" class="form-control" value="9391872342" readonly />
                         </div>
                         <div class="input-group mb-3">
                             <div class="input-group-text">
-                                <LinkedInIcon />
+                                <a href="https://www.linkedin.com/in/sravan-potnuru-a431a0215/" target="_blank"><LinkedInIcon /></a>
                             </div>
                             <input type="text" class="form-control" value="https://www.linkedin.com/in/sravan-potnuru-a431a0215/" readonly />
                         </div>

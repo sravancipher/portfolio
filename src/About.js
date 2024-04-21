@@ -16,7 +16,7 @@ function About({fn}) {
     };
     return (
         <>
-            <div className="container  align-content-center "  data-aos="fade-left" data-aos-duration="2000" style={{ height: "650px", textAlign: "center" }}>
+            <div className="container  align-content-center "  data-aos="fade-right" data-aos-duration="2000" style={{ height: "650px", textAlign: "center" }}>
                 <div className="row justify-content-sm-center">
                     <div className="col-sm-12 col-md-6">
                         <div class="card" style={{ width: "400px" }}>
