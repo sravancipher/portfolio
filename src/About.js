@@ -26,10 +26,10 @@ function About({fn}) {
     };
     return (
         <>
-            <div className="container mt-5"  data-aos="fade-right" dta-aos-duration="2000" style={{ height: "650px" }}>
+            <div className="container mt-5"  data-aos="fade-right" data-aos-duration="2000" style={{ height: "650px" }}>
                 <div className="row ">
                     <div className="col-sm-12 col-md-6">
-                        <div class="card" style={{ width: "400px" }}>
+                        <div class="card" style={{ width: "100%" }}>
                             <img className="card-img-top img-responsive" src="profile1.jpeg" alt="Card image" style={{ width: "100%", height: "300px" }} />
                             <div class="card-body">
                                 <h4 class="card-title">POTNURU SRAVANKUMAR</h4>

@@ -3,7 +3,6 @@ body{
 }
 @media (max-width: 768px) {
     .row{
-        
         margin-top: 360px;
     }
 }
