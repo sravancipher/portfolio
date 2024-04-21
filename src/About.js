@@ -46,7 +46,7 @@ function About({fn}) {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <span className="footer" ><Footer/></span>
         </>
     )
 }
