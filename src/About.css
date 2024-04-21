@@ -14,13 +14,13 @@
     }
     
 }
-@media (max-width: 782px) {
+@media (max-width: 768px) {
     .card1{
-        width:100%;
+        width:"100%";
     }
 }
-@media (max-width: 782px) {
+@media (max-width: 768px) {
     .card2{
-        width:100%;
+        width:"100%";
     }
 }
