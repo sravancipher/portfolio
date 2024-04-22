@@ -39,7 +39,7 @@ function Certificates() {
                     </a>
                     </div>
                     <div class="carousel-item">
-                    <Tooltip title="Completed 7 Days Web Dev Bootcamp in SHAPEAI" arrow><img src="cert6.jpeg" class="d-block" style={{ width: "100%" }} /></Tooltip>
+                    <Tooltip title="Completed 7 Days Web Development Bootcamp in SHAPEAI" arrow><img src="cert6.jpeg" class="d-block" style={{ width: "100%" }} /></Tooltip>
                     </div>
                     <div class="carousel-item">
                     <Tooltip title="Completed Java Development Internship" arrow><img src="cert7.jpeg" class="d-block" style={{ width: "100%" }} /></Tooltip>

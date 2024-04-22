@@ -33,9 +33,7 @@ function About({fn}) {
                             <img className="card-img-top img-responsive mx-auto d-block mt-1" src="profile1.jpeg" style={{ width: "90%", height: "300px" }} />
                             <div class="card-body">
                                 <h4 class="card-title">POTNURU SRAVANKUMAR</h4>
-                                <p class="card-text">I am dedicated and enthusiastic full-stack Java developer with a passion for creating
-                                    efficient and user-friendly web applications. Looking for an opportunity
-                                    to contribute to an organization to gain hands-on experience.
+                                <p class="card-text">I am flexible, focused, and eager to learn new things. I enjoy combining different areas of knowledge. I'm seeking an engaging role in a company that is always progressing. I want to use my creativity to generate ideas. I'm prepared to work diligently, be dependable, motivate others, and contribute to the company's success.
                                 </p>
                                 <Button variant="contained" className="bg-danger w-100" onClick={handleOpenDocument} startIcon={< DownloadForOfflineOutlinedIcon />}>Download CV</Button>
                             </div>
