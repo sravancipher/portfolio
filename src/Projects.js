@@ -18,7 +18,7 @@ function Projects() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Created a custom OTT platform using React JS and Bootstrap.
+          Developed a personalized OTT platform using React JS and Bootstrap, and integrated it with a MySQL database for data management.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -84,20 +84,6 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}><b>https://github.com/sravancipher/URLsaver.git</b></Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-          Created a Google Chrome extension using JavaScript that saves URLs of current tabs to Local Storage. Users can delete these URLs by double-clicking on them.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2-content"
-          id="panel2-header"
-        >
           <Typography sx={{ fontSize: { xs: '0.7rem', sm: '0.7rem', md: '1rem' } }} ><b>https://github.com/sravancipher/Movies_Counter.git</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -112,7 +98,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography sx={{ fontSize: { xs: '0.7rem', sm: '0.7rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task5. </b></Typography>
+          <Typography sx={{ fontSize: { xs: '0.6rem', sm: '0.6rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task5. </b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -126,7 +112,7 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography sx={{ fontSize: { xs: '0.7rem', sm: '0.7rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task3.</b></Typography>
+          <Typography sx={{ fontSize: { xs: '0.6rem', sm: '0.6rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task3.</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
