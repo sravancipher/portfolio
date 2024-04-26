@@ -30,7 +30,7 @@ function About({fn}) {
                 <div className="row ">
                     <div className="col-12 col-md-6">
                         <div className="card card1" style={{ width: "400px" }}>
-                            <img className="card-img-top img-responsive mx-auto d-block mt-1" src="profile1.jpeg" style={{ width: "90%", height: "300px" }} />
+                            <img className="card-img-top img-responsive mx-auto d-block mt-1" src="profile.jpeg" style={{ width: "90%", height: "300px" }} />
                             <div class="card-body">
                                 <h4 class="card-title">POTNURU SRAVANKUMAR</h4>
                                 <p class="card-text">I am flexible, focused, and eager to learn new things. I enjoy combining different areas of knowledge. I'm seeking an engaging role in a company that is always progressing. I want to use my creativity to generate ideas. I'm prepared to work diligently, be dependable, motivate others, and contribute to the company's success.
