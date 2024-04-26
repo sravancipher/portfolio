@@ -106,6 +106,34 @@ function Projects() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          <Typography sx={{ fontSize: { xs: '0.7rem', sm: '0.7rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task5. </b></Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          During my internship at CodSoft, I developed a console-based student management system that allows for adding, updating, deleting, and retrieving student details. The system stores these details in a database using JDBC technology.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          <Typography sx={{ fontSize: { xs: '0.7rem', sm: '0.7rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task3.</b></Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          During my internship at CodSoft, created a graphical user interface (GUI) for an ATM using Java Server Pages (JSP).
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
       <Accordion disabled>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
