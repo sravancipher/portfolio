@@ -14,7 +14,6 @@ function Home() {
             contact?<More_Back/>:<About fn={check}/>
             
         }
-        <span className="footer w-100 d-block m-auto" ><Footer/></span>   
         
         </>
     )
