@@ -14,15 +14,3 @@
     }
     
 }
-@media(max-width:780px){
-    .footer{
-        position:relative;
-        top:10px;
-        margin-left:20px;
-    }
-}
-@media(min-width:781px){
-    .footer{
-        text-align: center;
-    }
-}

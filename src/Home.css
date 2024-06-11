@@ -3,3 +3,9 @@
         margin-top: 360px;
     }
 }
+@media(max-width:780px){
+    .footer{
+        position:absolute;
+        top:0px;
+    }
+}

@@ -45,7 +45,6 @@ function More(props) {
                 <Chip   avatar={<Avatar><ArrowCircleLeftOutlinedIcon style={{ color: 'red' }}/></Avatar>} style={{ color: 'white' }}  label="Back" size="large" onClick={() => {props.fn()}} sx={{bgcolor:"red"}}/>
                 <br />
             </Divider>
-            <Footer />
         </>
     )
 }

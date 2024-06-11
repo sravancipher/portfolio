@@ -49,7 +49,7 @@ function Opening(props) {
             <Backdrop open={open} style={{ zIndex: 5, color: '#fff' }}>
         <CircularProgress color="inherit" />
       </Backdrop>
-      <span className="footer w-100 d-block m-auto" style={{position:"absolute",top:"620px"}}><Footer/></span>   
+      
       
         </>
 
