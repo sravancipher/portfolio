@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from '@mui/material/Button'
 import { Backdrop, CircularProgress } from '@mui/material';
+import Footer from './Footer';
 function Opening(props) {
     let s1 = {
         position: "fixed",
@@ -48,7 +49,8 @@ function Opening(props) {
             <Backdrop open={open} style={{ zIndex: 5, color: '#fff' }}>
         <CircularProgress color="inherit" />
       </Backdrop>
-
+      <span className="footer w-100 d-block m-auto" style={{position:"absolute",top:"620px"}}><Footer/></span>   
+      
         </>
 
     )
