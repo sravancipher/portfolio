@@ -5,7 +5,6 @@
 }
 @media(max-width:780px){
     .footer{
-        position:absolute;
-        top:0px;
+        display: none;
     }
 }
