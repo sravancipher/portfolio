@@ -8,3 +8,8 @@
         display: none;
     }
 }
+@media(max-width:780px){
+    .footer{
+        text-align: center;
+    }
+}
