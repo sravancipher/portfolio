@@ -45,7 +45,7 @@ function Opening(props) {
             <Button  data-aos="zoom-in" data-aos-duration="2000" variant="contained" size="large" className='bg-danger d-block m-auto' style={{ position: "relative", top: "50vh"}} 
             onClick={handleClick}
             >Know Me</Button>
-            <Backdrop open={open} style={{ zIndex: 999, color: '#fff' }}>
+            <Backdrop open={open} style={{ zIndex: 5, color: '#fff' }}>
         <CircularProgress color="inherit" />
       </Backdrop>
 
