@@ -87,3 +87,9 @@ const handleOpenDocument = () => {
         const documentUrl = 'https://drive.google.com/file/d/1oNwyr5mOW3yq_geKTdVOpfc21i0CEHm5/view';
         window.open(documentUrl, '_blank');
     }; 
+
+
+
+    <Typography variant="body1" onClick={handleClick} style={{ cursor: 'pointer' }}>
+        Click here to show backdrop for 1 minute
+      </Typography>
