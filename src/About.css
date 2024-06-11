@@ -21,3 +21,8 @@
         margin-left:20px;
     }
 }
+@media(min-width:781px){
+    .footer{
+        text-align: center;
+    }
+}
