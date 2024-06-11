@@ -43,7 +43,7 @@ function About({fn}) {
                              <Contact fn={fn}/>
                     </div>
                 </div>
-                <span className="footer"><Footer/></span>
+                <span className="footer" style={{textAlign:"center"}}><Footer/></span>    
             </div>
             
         </>
