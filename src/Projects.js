@@ -120,14 +120,33 @@ function Projects() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion disabled>
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3-content"
-          id="panel3-header"
+          aria-controls="panel2-content"
+          id="panel2-header"
         >
-          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}>Stress Detection through ML(Currently Working)</Typography>
+          <Typography sx={{ fontSize: { xs: '0.6rem', sm: '0.6rem', md: '1rem' } }} ><b>https://screensaga.netlify.app/ </b></Typography>
         </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          I developed a dynamic OTT platform using HTML, CSS, Bootstrap, ReactJs API integration with JSON, MySQL for database management, and Spring REST controllers.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          <Typography sx={{ fontSize: { xs: '0.6rem', sm: '0.6rem', md: '1rem' } }} ><b>https://github.com/sravancipher/mini_project</b></Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          As part of our mini project, we developed a machine learning model named "stress prediction based on sleeping patterns." This model predicts stress levels by analyzing physiological parameters. We used Python to build the model and created a user interface with Streamlit. Users can input their data into the interface to find out their stress levels.
+          </Typography>
+        </AccordionDetails>
       </Accordion>
     </div>
   );
