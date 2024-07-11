@@ -19,7 +19,7 @@ function About({fn}) {
         const pdfUrl = "sravanpotnuru@GeneralCV.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "sravanpotnuru_CV.pdf"; // specify the filename
+        link.download = "sravanpotnuru_CV.pdf"; 
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
