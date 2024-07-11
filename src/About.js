@@ -10,9 +10,9 @@ import { useEffect } from "react";
 
 function About({fn}) {
     useEffect(() => {
-        const isMobile = window.innerWidth <= 768; // Adjust the threshold as needed
+        const isMobile = window.innerWidth <= 768; 
         if (isMobile) {
-          AOS.init({ duration: 0 }); // Initialize AOS with your desired options
+          AOS.init({ duration: 0 }); 
         }
       }, []);
     const handleOpenDocument = () => {
