@@ -11,14 +11,28 @@ function Projects() {
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1-content"
-          id="panel1-header"
+          aria-controls="panel2-content"
+          id="panel2-header"
         >
-          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}><b>https://screenpoint.netlify.app/</b></Typography>
+          <Typography sx={{ fontSize: { xs: '0.6rem', sm: '0.6rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task5. </b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Developed a personalized OTT platform using React JS and Bootstrap, and integrated it with a MySQL database for data management.
+          During my internship at CodSoft, I developed a console-based student management system that allows for adding, updating, deleting, and retrieving student details. The system stores these details in a database using JDBC technology.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          <Typography sx={{ fontSize: { xs: '0.6rem', sm: '0.6rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task3.</b></Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          During my internship at CodSoft, created a graphical user interface (GUI) for an ATM using Java Server Pages (JSP).
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -32,35 +46,7 @@ function Projects() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Built a website using HTML, CSS, and Bootstrap showcasing various organizations at RGUKT
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2-content"
-          id="panel2-header"
-        >
-          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}><b>https://github.com/sravancipher/myownott</b></Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-          Created a custom OTT platform using HTML, CSS, and Bootstrap
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2-content"
-          id="panel2-header"
-        >
-          <Typography sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}><b>https://github.com/sravancipher/vizon.git</b></Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}>
-          Designed a website focused on animations using CSS and JavaScript
+          Built a website using HTML, CSS, and Bootstrap showcasing various organizations at RGUKT.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -98,11 +84,25 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography sx={{ fontSize: { xs: '0.6rem', sm: '0.6rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task5. </b></Typography>
+          <Typography sx={{ fontSize: { xs: '0.7rem', sm: '0.7rem', md: '1rem' } }} ><b>https://github.com/sravancipher/Chegg-Extension</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          During my internship at CodSoft, I developed a console-based student management system that allows for adding, updating, deleting, and retrieving student details. The system stores these details in a database using JDBC technology.
+          Created a Google Chrome Extension for Chegg to tally the number of questions using HTML,CSS and JavaScript.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}><b>https://screenpoint.netlify.app/</b></Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          Developed a personalized OTT platform using React JS and Bootstrap, and integrated it with a MySQL database for data management.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -112,11 +112,11 @@ function Projects() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography sx={{ fontSize: { xs: '0.6rem', sm: '0.6rem', md: '1rem' } }} ><b>https://github.com/sravancipher/CODSOFT/tree/master/Task3.</b></Typography>
+          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}><b>https://github.com/sravancipher/myownott</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          During my internship at CodSoft, created a graphical user interface (GUI) for an ATM using Java Server Pages (JSP).
+          Created a custom OTT platform using HTML, CSS, and Bootstrap.
           </Typography>
         </AccordionDetails>
       </Accordion>
