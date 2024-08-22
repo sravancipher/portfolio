@@ -34,7 +34,7 @@ function Contact(props) {
                             <div class="input-group-text">
                                 <a href="https://www.linkedin.com/in/sravan-potnuru-a431a0215/" target="_blank"><LinkedInIcon /></a>
                             </div>
-                            <input type="text" class="form-control" value="https://www.linkedin.com/in/sravan-potnuru-a431a0215/" readonly />
+                            <input type="text" class="form-control" value="sravan potnuru | LinkedIn" readonly />
                         </div>
                         <div class="btn-group w-100">
                             <a href="mailto:sravanpotnuru24@gmail.com" class="btn btn-success "><ConnectWithoutContactIcon/> Contact</a>
