@@ -95,20 +95,6 @@ function Projects() {
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1-content"
-          id="panel1-header"
-        >
-          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}><b>https://screenpoint.netlify.app/</b></Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-          Developed a personalized OTT platform using React JS and Bootstrap, and integrated it with a MySQL database for data management.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
           id="panel2-header"
         >
@@ -117,6 +103,20 @@ function Projects() {
         <AccordionDetails>
           <Typography>
           Created a custom OTT platform using HTML, CSS, and Bootstrap.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          <Typography  sx={{ fontSize: { xs: '0.8rem', sm: '0.8rem', md: '1rem' } }}><b>https://screenpoint.netlify.app/</b></Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          Developed a personalized OTT platform using React JS and Bootstrap, and integrated it with a MySQL database for data management.
           </Typography>
         </AccordionDetails>
       </Accordion>
