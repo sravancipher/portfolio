@@ -1,5 +1,5 @@
 function Skills() {
-    let skills=["HTML","CSS","Bootstrap","JavaScript","ReactJs","NodeJs","Java","MySQL"]
+    let skills=["HTML","CSS","Bootstrap","JavaScript","ReactJs","MySQL","Java","Hibernate","Spring Boot"]
     return (
 
         <>
