@@ -7,6 +7,8 @@ import Divider from '@mui/material/Divider';
 import Chip from '@mui/material/Chip';
 import Avatar from '@mui/material/Avatar';
 import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
+import WorkExperience from './WorkExperience'
+
 function More(props) {
     // const useStyles = makeStyles({
     //     chipIcon: {
@@ -32,6 +34,11 @@ function More(props) {
                     <div className='col-md-6' data-aos="fade-right" data-aos-duration="3000">
                         <h1 className='text-danger d-flex justify-content-center' >Projects</h1>
                         <Projects />
+                         <div className='row'>
+                            <div className='col-md-12'data-aos="fade-right" data-aos-duration="3000">
+                            <h2 className='text-danger d-flex justify-content-center' >Work Experience</h2>
+                                <WorkExperience/></div>
+                         </div>
                     </div>
                     <div className='col-md-6' data-aos="fade-left" data-aos-duration="3000">
                         <h1 className='text-danger d-flex justify-content-center'>Certifications</h1>

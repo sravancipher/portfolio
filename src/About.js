@@ -16,10 +16,10 @@ function About({fn}) {
         }
       }, []);
     const handleOpenDocument = () => {
-        const pdfUrl = "sravanpotnuru@GeneralCV.pdf";
+        const pdfUrl = "sravan potnuru_Resume.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "sravanpotnuru_CV.pdf"; 
+        link.download = "Sravanpotnuru_Resume.pdf"; 
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
