@@ -11,9 +11,9 @@ import Typography from '@mui/material/Typography';
 const steps = [
     {
         label: 'B.Tech',
-        description: `Rajiv Gandhi University of Knowledge Technologies, Nuzvid | Now Attending
+        description: `Rajiv Gandhi University of Knowledge Technologies, Nuzvid | 2021 - 2025
     B.Tech - Computer Science Engineering (CSE)
-    CGPA: 8.93
+    CGPA: 9.00
     `,
     },
     {
