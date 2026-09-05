@@ -45,7 +45,11 @@ function Navbar() {
   return (
     <header className={[styles.nav, scrolled ? styles.scrolled : ""].join(" ")}>
       <div className={["container", styles.inner].join(" ")}>
-        <Link to="/" className={styles.logo}>
+        <Link
+          to="/"
+          className={styles.logo}
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
           Sravan<span>.</span>
         </Link>
 
