@@ -225,7 +225,6 @@ export const featuredProjects = [
     summary:
       "A full-stack streaming platform with real authentication, watchlists, continue-watching and a feedback system.",
     tech: ["React JS", "Spring Boot", "REST APIs", "MySQL", "SMTP"],
-    liveUrl: "https://screensaga.netlify.app/",
     repoLinks: [
       { label: "Frontend Code", url: "https://github.com/sravancipher/screensaga_frontend" },
       { label: "Backend Code", url: "https://github.com/sravancipher/screensaga_springboot" },
