@@ -3,7 +3,6 @@ import Section from "./ui/Section";
 import Card from "./ui/Card";
 import Badge from "./ui/Badge";
 import Icon from "./ui/Icon";
-import OtherProjects from "./OtherProjects";
 import { featuredProjects } from "../data/content";
 import styles from "./FeaturedProjects.module.css";
 
@@ -45,8 +44,6 @@ function FeaturedProjects() {
           </Link>
         ))}
       </div>
-
-      <OtherProjects />
     </Section>
   );
 }

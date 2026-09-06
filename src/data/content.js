@@ -235,15 +235,21 @@ export const featuredProjects = [
     outcome:
       "A deployed, publicly viewable OTT platform demonstrating full-stack ownership from database design to UI polish.",
   },
-];
-
-export const otherProjects = [
   {
-    name: "Stress Prediction Based on Sleeping Patterns",
-    description:
+    slug: "stress-prediction",
+    name: "Stress Prediction from Sleep Patterns",
+    kind: "Independent project",
+    summary:
       "A machine learning model that predicts stress levels from sleep data and surfaces wellness suggestions through a Streamlit interface.",
     tech: ["Python", "Machine Learning", "Streamlit"],
-    repoUrl: "https://github.com/sravancipher/mini_project",
+    problem:
+      "People often have no easy way to gauge how their sleep patterns are affecting their stress levels, or get simple, practical guidance on what to do about it.",
+    solution:
+      "Built a machine learning model that predicts stress levels from sleep data, with a Streamlit interface where users can enter their own data and get wellness suggestions back.",
+    contribution:
+      "Built the ML model and the Streamlit interface end-to-end as an independent project.",
+    outcome:
+      "A working, interactive tool that turns raw sleep data into a stress-level estimate and practical wellness suggestions.",
   },
 ];
 
