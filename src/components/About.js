@@ -6,7 +6,7 @@ import styles from "./About.module.css";
 const highlights = [
   "Production video-intelligence systems",
   "Direct collaboration with US CEO/CTO stakeholders",
-  "Government-facility surveillance deployments",
+  "GenAI-powered enterprise assistants",
 ];
 
 function About() {
