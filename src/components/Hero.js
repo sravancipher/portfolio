@@ -51,8 +51,8 @@ function Hero() {
               <div className={styles.statLabel}>AI/ML &amp; backend engineering</div>
             </div>
             <div>
-              <div className={styles.statValue}>10+</div>
-              <div className={styles.statLabel}>Live CCTV streams in production</div>
+              <div className={styles.statValue}>2</div>
+              <div className={styles.statLabel}>Live production engagements</div>
             </div>
             <div>
               <div className={styles.statValue}>5+</div>
