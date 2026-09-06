@@ -4,7 +4,7 @@ export const profile = {
   tagline:
     "Building production-grade AI, computer vision, and GenAI-powered applications.",
   summary:
-    "AI/ML Engineer with 2 years of experience building production-grade video intelligence and GenAI applications. Experienced in FastAPI microservices, Triton Inference Server, AWS cloud services, computer vision, and LLM-powered systems. Currently working on US client projects involving real-time CCTV analytics and scalable AI deployments.",
+    "AI/ML Engineer with 2 years of experience building AI/ML and backend solutions using Python, FastAPI, Machine Learning, Generative AI and LLMs. Experienced in developing production-oriented AI pipelines, REST APIs, microservices and cloud-based data workflows using AWS and Azure. Hands-on experience with computer vision models including YOLO and InsightFace, model deployment using Docker and Triton, and data engineering technologies including Azure Data Factory, Databricks and Apache NiFi. Also experienced in developing scalable backend services and integrating AI models with enterprise applications for US-based clients.",
   availability:
     "Currently full-time at Parabola9 — open to new full-time roles as well as freelance / contract engagements.",
   location: "Mangalagiri, India",
