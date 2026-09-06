@@ -14,7 +14,7 @@ export const profile = {
     email: "sravanpotnuru24@gmail.com",
     phone: "+91 9391872342",
     phoneHref: "+919391872342",
-    linkedin: "https://www.linkedin.com/in/sravan-potnuru/",
+    linkedin: "https://www.linkedin.com/in/sravan-potnuru",
     github: "https://github.com/sravancipher",
   },
 };
@@ -110,12 +110,12 @@ export const experience = [
     ],
   },
   {
-    role: "AI Contractor — Rich's",
+    role: "AI Contractor — US Enterprise Client",
     org: "Parabola9",
     period: "02/2026 – Present",
     location: "Mangalagiri",
     bullets: [
-      "Contracted as an AI engineer on Rich's, building an AI-powered chat assistant that gives business users conversational access to enterprise SAP data.",
+      "Contracted as an AI engineer for a US-based enterprise client, building an AI-powered chat assistant that gives business users conversational access to enterprise SAP data.",
       "Built Azure Data Factory ETL pipelines ingesting data from multiple sources — including Azure DevOps work items and Azure File Share documents — into Databricks tables through Bronze, Silver and Gold layers.",
       "Contributing to a semantic layer over these Databricks tables so the chat agent can query and reason over SAP-sourced business data with accurate, structured context.",
       "Developed FastAPI APIs for document ingestion, semantic search and AI-driven retrieval, working across backend APIs, ETL pipelines and agent logic as part of the engineering team.",
@@ -157,7 +157,7 @@ export const featuredProjects = [
   {
     slug: "sap-ai-chat-assistant",
     name: "AI Chat Assistant on Enterprise SAP Data",
-    kind: "Client project — Rich's",
+    kind: "Client project — US Enterprise Client",
     summary:
       "An AI-powered chat assistant that gives business users conversational access to enterprise SAP data, backed by a Databricks semantic layer.",
     tech: [
