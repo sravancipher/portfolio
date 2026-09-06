@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import Button from "./ui/Button";
 import Icon from "./ui/Icon";
 import ThemeToggle from "./ui/ThemeToggle";
+import { useCopyEmail } from "../hooks/useCopyEmail";
 import { profile, mailtoHref } from "../data/content";
 import styles from "./Navbar.module.css";
 
@@ -19,6 +20,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
   const onHome = location.pathname === "/";
+  const [emailCopied, copyEmail] = useCopyEmail();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -93,7 +95,9 @@ function Navbar() {
               Let's Work Together
             </Link>
           )}
-          <a href={mailtoHref}>{profile.contact.email}</a>
+          <a href={mailtoHref} onClick={copyEmail}>
+            {emailCopied ? "Copied to clipboard!" : profile.contact.email}
+          </a>
         </div>
       )}
     </header>

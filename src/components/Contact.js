@@ -1,11 +1,14 @@
 import Section from "./ui/Section";
 import Button from "./ui/Button";
 import Icon from "./ui/Icon";
+import { useCopyEmail } from "../hooks/useCopyEmail";
 import { profile, mailtoHref } from "../data/content";
 import styles from "./Contact.module.css";
 
 function Contact() {
   const { contact } = profile;
+  const [ctaCopied, copyCta] = useCopyEmail();
+  const [rowCopied, copyRow] = useCopyEmail();
 
   return (
     <Section id="contact">
@@ -23,9 +26,9 @@ function Contact() {
             {profile.availability}
           </span>
           <div className={styles.ctaRow}>
-            <Button as="a" href={mailtoHref}>
-              <Icon name="mail" size={16} />
-              Email Me
+            <Button as="a" href={mailtoHref} onClick={copyCta}>
+              <Icon name={ctaCopied ? "check" : "mail"} size={16} />
+              {ctaCopied ? "Copied!" : "Email Me"}
             </Button>
             <Button
               as="a"
@@ -40,12 +43,12 @@ function Contact() {
         </div>
 
         <div className={styles.list}>
-          <a className={styles.row} href={mailtoHref}>
+          <a className={styles.row} href={mailtoHref} onClick={copyRow}>
             <span className={styles.iconWrap}>
-              <Icon name="mail" size={18} />
+              <Icon name={rowCopied ? "check" : "mail"} size={18} />
             </span>
             <span>
-              <div className={styles.label}>Email</div>
+              <div className={styles.label}>{rowCopied ? "Copied!" : "Email"}</div>
               <div className={styles.value}>{contact.email}</div>
             </span>
           </a>

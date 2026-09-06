@@ -1,8 +1,11 @@
 import Icon from "./ui/Icon";
+import { useCopyEmail } from "../hooks/useCopyEmail";
 import { profile, mailtoHref } from "../data/content";
 import styles from "./Footer.module.css";
 
 function Footer() {
+  const [copied, copyEmail] = useCopyEmail();
+
   return (
     <footer className={styles.footer}>
       <div className={["container", styles.inner].join(" ")}>
@@ -27,8 +30,8 @@ function Footer() {
           >
             <Icon name="linkedin" size={18} />
           </a>
-          <a href={mailtoHref} aria-label="Email">
-            <Icon name="mail" size={18} />
+          <a href={mailtoHref} onClick={copyEmail} aria-label={copied ? "Email copied" : "Email"}>
+            <Icon name={copied ? "check" : "mail"} size={18} />
           </a>
         </div>
       </div>
