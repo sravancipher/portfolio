@@ -1,7 +1,7 @@
 import Section from "./ui/Section";
 import Button from "./ui/Button";
 import Icon from "./ui/Icon";
-import { profile } from "../data/content";
+import { profile, mailtoHref } from "../data/content";
 import styles from "./Contact.module.css";
 
 function Contact() {
@@ -23,7 +23,7 @@ function Contact() {
             {profile.availability}
           </span>
           <div className={styles.ctaRow}>
-            <Button as="a" href={`mailto:${contact.email}`}>
+            <Button as="a" href={mailtoHref}>
               <Icon name="mail" size={16} />
               Email Me
             </Button>
@@ -40,7 +40,7 @@ function Contact() {
         </div>
 
         <div className={styles.list}>
-          <a className={styles.row} href={`mailto:${contact.email}`}>
+          <a className={styles.row} href={mailtoHref}>
             <span className={styles.iconWrap}>
               <Icon name="mail" size={18} />
             </span>

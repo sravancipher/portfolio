@@ -1,5 +1,5 @@
 import Icon from "./ui/Icon";
-import { profile } from "../data/content";
+import { profile, mailtoHref } from "../data/content";
 import styles from "./Footer.module.css";
 
 function Footer() {
@@ -27,7 +27,7 @@ function Footer() {
           >
             <Icon name="linkedin" size={18} />
           </a>
-          <a href={`mailto:${profile.contact.email}`} aria-label="Email">
+          <a href={mailtoHref} aria-label="Email">
             <Icon name="mail" size={18} />
           </a>
         </div>

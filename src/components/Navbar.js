@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import Button from "./ui/Button";
 import Icon from "./ui/Icon";
 import ThemeToggle from "./ui/ThemeToggle";
-import { profile } from "../data/content";
+import { profile, mailtoHref } from "../data/content";
 import styles from "./Navbar.module.css";
 
 const NAV_ITEMS = [
@@ -93,7 +93,7 @@ function Navbar() {
               Let's Work Together
             </Link>
           )}
-          <a href={`mailto:${profile.contact.email}`}>{profile.contact.email}</a>
+          <a href={mailtoHref}>{profile.contact.email}</a>
         </div>
       )}
     </header>

@@ -19,6 +19,13 @@ export const profile = {
   },
 };
 
+const MAIL_SUBJECT = "Let's connect";
+const MAIL_BODY = "Hi Sravan,\n\nI'd like to connect regarding a potential opportunity.\n\n";
+
+export const mailtoHref = `mailto:${profile.contact.email}?subject=${encodeURIComponent(
+  MAIL_SUBJECT
+)}&body=${encodeURIComponent(MAIL_BODY)}`;
+
 export const roles = [
   "AI/ML Engineer",
   "GenAI & LLM Systems",
