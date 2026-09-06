@@ -14,7 +14,7 @@ export const profile = {
     email: "sravanpotnuru24@gmail.com",
     phone: "+91 9391872342",
     phoneHref: "+919391872342",
-    linkedin: "https://www.linkedin.com/in/sravan-potnuru-a431a0215/",
+    linkedin: "https://www.linkedin.com/in/sravan-potnuru/",
     github: "https://github.com/sravancipher",
   },
 };
