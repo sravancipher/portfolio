@@ -59,6 +59,20 @@ function CaseStudy() {
                 View Code
               </Button>
             )}
+            {project.repoLinks &&
+              project.repoLinks.map((repo) => (
+                <Button
+                  key={repo.url}
+                  as="a"
+                  href={repo.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  variant="onDark"
+                >
+                  <Icon name="github" size={16} />
+                  {repo.label}
+                </Button>
+              ))}
             {project.liveUrl && (
               <Button
                 as="a"

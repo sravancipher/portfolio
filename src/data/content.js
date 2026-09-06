@@ -226,6 +226,10 @@ export const featuredProjects = [
       "A full-stack streaming platform with real authentication, watchlists, continue-watching and a feedback system.",
     tech: ["React JS", "Spring Boot", "REST APIs", "MySQL", "SMTP"],
     liveUrl: "https://screensaga.netlify.app/",
+    repoLinks: [
+      { label: "Frontend Code", url: "https://github.com/sravancipher/screensaga_frontend" },
+      { label: "Backend Code", url: "https://github.com/sravancipher/screensaga_springboot" },
+    ],
     problem:
       "Needed to prove out a complete, production-style full-stack product — not just a UI — covering real user authentication, content browsing and personalization end to end.",
     solution:
@@ -242,6 +246,7 @@ export const featuredProjects = [
     summary:
       "A machine learning model that predicts stress levels from sleep data and surfaces wellness suggestions through a Streamlit interface.",
     tech: ["Python", "Machine Learning", "Streamlit"],
+    repoUrl: "https://github.com/sravancipher/mini_project",
     problem:
       "People often have no easy way to gauge how their sleep patterns are affecting their stress levels, or get simple, practical guidance on what to do about it.",
     solution:
