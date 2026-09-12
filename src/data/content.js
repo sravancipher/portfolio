@@ -103,7 +103,7 @@ export const experience = [
     role: "AI/ML Engineer",
     org: "Parabola9",
     period: "12/2024 – Present",
-    location: "Mangalagiri",
+    location: "Mangalagiri, India",
     bullets: [
       "Designed and deployed a production video analytics platform processing 10+ live CCTV streams through FastAPI microservices, enabling real-time AI inference and event detection.",
       "Built a serverless video ingestion pipeline using AWS Lambda, Kinesis Video Streams and S3 to automatically ingest, process and store live CCTV footage, eliminating manual video handling.",
@@ -120,7 +120,7 @@ export const experience = [
     role: "AI Contractor — US Enterprise Client",
     org: "Parabola9",
     period: "02/2026 – Present",
-    location: "Mangalagiri",
+    location: "Mangalagiri, India",
     bullets: [
       "Contracted as an AI engineer for a US-based enterprise client, building an AI-powered chat assistant that gives business users conversational access to enterprise SAP data.",
       "Built Azure Data Factory ETL pipelines ingesting data from multiple sources — including Azure DevOps work items and Azure File Share documents — into Databricks tables through Bronze, Silver and Gold layers.",
