@@ -186,20 +186,29 @@ export const featuredProjects = [
   },
   {
     slug: "logiq",
-    name: "LogIQ — AI-Powered Project Monitor",
+    name: "LogIQ — AI-Powered Observability Platform",
     kind: "Independent project",
     summary:
-      "A pip-installable monitoring layer that turns application logs into automated error detection and fix suggestions.",
-    tech: ["FastAPI", "React", "Cloud Integration", "LLMs"],
-    liveNote: "Ships as a lightweight Python package (pip install).",
+      "A multi-tenant observability platform that ingests application logs via a lightweight Python SDK and uses AI to surface root-cause analysis, service health, and automated alerts.",
+    tech: [
+      "FastAPI",
+      "PostgreSQL",
+      "React",
+      "Multi-Provider LLMs",
+      "Python SDK",
+      "Cloud Webhooks (AWS/Azure/GCP)",
+    ],
+    liveUrl: "https://logiq.thetechvoyager.in/",
+    liveNote:
+      "Applications integrate via the installable project-monitor-sdk Python package, or via native AWS/Azure/GCP alert webhooks.",
     problem:
-      "Teams integrating AI or backend services into their applications lack a lightweight, drop-in way to monitor logs, catch errors and understand root causes without standing up a full observability stack.",
+      "Teams integrating AI or backend services into their applications need a way to monitor logs, understand root causes, and get alerted when something breaks — without standing up and maintaining a full observability stack themselves.",
     solution:
-      "Built an AI-powered project monitoring platform, distributed as a lightweight Python package, that adds log collection, error detection, root-cause analysis, cloud-based monitoring support and automated fix suggestions to any integrated application.",
+      "Built LogIQ, a multi-tenant observability platform: applications ship structured logs to a FastAPI + PostgreSQL backend through a lightweight Python SDK, or through native AWS/Azure/GCP alert webhooks normalized into the same log model. The backend computes per-service health, generates AI-assisted root-cause analysis — backed by a choice of LLM providers (Ollama, OpenAI-compatible, Azure OpenAI, Anthropic, or AWS Bedrock) with a rule-based fallback when AI is disabled or unavailable — and can alert over Slack, Teams, or email. A React dashboard covers log exploration, AI insights, per-service health, and integration management.",
     contribution:
-      "Built the end-to-end product: the installable Python package, the log-collection and error/root-cause-analysis logic, the backend APIs, and the dashboard UI.",
+      "Designed and built the system end-to-end: the log-ingestion API with idempotent, cursor-paginated querying; the multi-provider AI root-cause-analysis engine with automatic rule-based fallback; per-project LLM and alert-channel configuration so each project can use its own provider or notification channels; the cloud-webhook normalizer that ingests native AWS/Azure/GCP alerts into the same log model; the background worker that drives automatic health-check alerting; the React dashboard; and the installable Python SDK client applications use to ship logs.",
     outcome:
-      "A reusable monitoring layer any Python application can add via a single pip install, turning raw logs into actionable, AI-generated fix suggestions instead of manual log-diving.",
+      "A working, deployed observability platform — live at logiq.thetechvoyager.in — that turns raw application logs into AI-generated root-cause analysis and proactive alerts instead of manual log-diving, with support for five different LLM providers so it can adapt to whichever one a team already uses.",
   },
   {
     slug: "parabot",
