@@ -1,0 +1,288 @@
+export const profile = {
+  name: "Sravan Potnuru",
+  title: "AI/ML Engineer & Full-Stack Developer",
+  tagline:
+    "Building production-grade AI, computer vision, and GenAI-powered applications.",
+  summary:
+    "AI/ML Engineer with 2 years of experience building AI/ML and backend solutions using Python, FastAPI, Machine Learning, Generative AI and LLMs. Experienced in developing production-oriented AI pipelines, REST APIs, microservices and cloud-based data workflows using AWS and Azure. Hands-on experience with computer vision models including YOLO and InsightFace, model deployment using Docker and Triton, and data engineering technologies including Azure Data Factory, Databricks and Apache NiFi. Currently involved in R&D on LLM fine-tuning and post-training, exploring SFT, parameter-efficient training and model evaluation, while contributing to an Enterprise AI Harness for intelligent interaction with SAP data and enterprise documents.",
+  availability:
+    "Currently full-time at Parabola9 — open to new full-time roles as well as freelance / contract engagements.",
+  location: "Mangalagiri, India",
+  resumeUrl: "/Sravan_Potnuru_Resume.pdf",
+  photo: "/profile.png",
+  contact: {
+    email: "sravanpotnuru24@gmail.com",
+    phone: "+91 9391872342",
+    phoneHref: "+919391872342",
+    linkedin: "https://www.linkedin.com/in/sravan-potnuru",
+    github: "https://github.com/sravancipher",
+  },
+};
+
+const MAIL_SUBJECT = "Let's connect";
+const MAIL_BODY = "Hi Sravan,\n\nI'd like to connect regarding a potential opportunity.\n\n";
+
+export const mailtoHref = `mailto:${profile.contact.email}?subject=${encodeURIComponent(
+  MAIL_SUBJECT
+)}&body=${encodeURIComponent(MAIL_BODY)}`;
+
+export const roles = [
+  "AI/ML Engineer",
+  "GenAI & LLM Systems",
+  "Full-Stack Developer",
+];
+
+export const services = [
+  {
+    title: "AI/ML & Computer Vision Systems",
+    description:
+      "Real-time object detection, multi-object tracking and face recognition pipelines for video analytics and surveillance use cases.",
+    tags: ["YOLO", "BoT-SORT", "InsightFace", "Triton Inference Server"],
+  },
+  {
+    title: "GenAI & LLM-Powered Applications",
+    description:
+      "Retrieval-augmented generation, semantic search and knowledge-graph-backed assistants that turn unstructured content into answers.",
+    tags: ["RAG", "LangGraph", "Semantic Search", "Neo4j"],
+  },
+  {
+    title: "Backend & API Engineering",
+    description:
+      "Production microservices and REST APIs that power AI inference, data ingestion and application logic at scale.",
+    tags: ["FastAPI", "Spring Boot", "REST APIs"],
+  },
+  {
+    title: "Cloud Infrastructure & MLOps",
+    description:
+      "Serverless ingestion pipelines, containerized model serving and GPU deployment across AWS and Akash Network.",
+    tags: ["AWS Lambda", "Kinesis", "Docker", "EC2", "Akash Network"],
+  },
+  {
+    title: "Full-Stack Web Applications",
+    description:
+      "End-to-end products with React front ends, Spring Boot / FastAPI back ends and MySQL, including auth and account flows.",
+    tags: ["React", "Spring Boot", "MySQL"],
+  },
+  {
+    title: "Data Pipelines & ETL",
+    description:
+      "Ingestion and transformation pipelines that bring enterprise data sources into a structured, queryable form.",
+    tags: ["Azure Data Factory", "Apache NiFi", "Databricks"],
+  },
+];
+
+export const techStack = [
+  { category: "Languages", items: ["Python", "Java"] },
+  { category: "Backend", items: ["FastAPI", "Spring Boot", "REST APIs"] },
+  {
+    category: "AI/ML",
+    items: [
+      "YOLO",
+      "InsightFace (Buffalo)",
+      "RAG",
+      "LangGraph",
+      "Triton Inference Server",
+    ],
+  },
+  {
+    category: "Cloud & DevOps",
+    items: ["AWS EC2", "AWS S3", "AWS Lambda", "Kinesis", "Docker"],
+  },
+  { category: "Databases", items: ["MySQL", "Neo4j (Cypher)"] },
+  {
+    category: "Data & Analytics",
+    items: ["Databricks", "Azure Data Factory", "Apache NiFi"],
+  },
+  { category: "Frontend", items: ["React JS", "HTML", "CSS", "Bootstrap"] },
+  { category: "Testing & Performance", items: ["Locust"] },
+  { category: "Tools", items: ["Git", "Postman", "Jupyter", "VS Code"] },
+];
+
+export const experience = [
+  {
+    role: "AI/ML Engineer",
+    org: "Parabola9",
+    period: "12/2024 – Present",
+    location: "Mangalagiri, India",
+    bullets: [
+      "Designed and deployed a production video analytics platform processing 10+ live CCTV streams through FastAPI microservices, enabling real-time AI inference and event detection.",
+      "Built a serverless video ingestion pipeline using AWS Lambda, Kinesis Video Streams and S3 to automatically ingest, process and store live CCTV footage, eliminating manual video handling.",
+      "Optimized AI inference using NVIDIA Triton Inference Server, reducing model serving latency and enabling real-time object detection across multiple concurrent streams.",
+      "Developed a computer vision pipeline combining YOLO, BoT-SORT and InsightFace to perform real-time person detection, tracking and face recognition for surveillance applications.",
+      "Containerized and deployed 5+ AI microservices on AWS EC2 using Docker, reducing deployment time and improving release consistency.",
+      "Built an AI-powered warehouse surveillance platform capable of detecting PPE compliance and security events in real time, improving operational visibility for government facilities.",
+      "Collaborate directly with CEO & CTO (US stakeholders) on development plan, performance improvements, and deployment decisions.",
+      "Deployed GPU-enabled AI inference services on Akash Network (Linux/AMD64), reducing infrastructure cost while supporting production-scale model serving.",
+      "Built a real-time video ingestion pipeline using Apache NiFi to ingest live streams, automate video chunking and eliminate manual ingestion processes.",
+    ],
+  },
+  {
+    role: "AI Contractor — US Enterprise Client",
+    org: "Parabola9",
+    period: "02/2026 – Present",
+    location: "Mangalagiri, India",
+    bullets: [
+      "Contracted as an AI engineer for a US-based enterprise client, building an AI-powered chat assistant that gives business users conversational access to enterprise SAP data.",
+      "Built Azure Data Factory ETL pipelines ingesting data from multiple sources — including Azure DevOps work items and Azure File Share documents — into Databricks tables through Bronze, Silver and Gold layers.",
+      "Contributing to a semantic layer over these Databricks tables so the chat agent can query and reason over SAP-sourced business data with accurate, structured context.",
+      "Developed FastAPI APIs for document ingestion, semantic search and AI-driven retrieval, working across backend APIs, ETL pipelines and agent logic as part of the engineering team.",
+      "Executed large-scale Locust load testing to identify performance bottlenecks, improving backend scalability before production deployments.",
+    ],
+  },
+];
+
+export const featuredProjects = [
+  {
+    slug: "video-intelligence-platform",
+    name: "Video Intelligence & CCTV Analytics Platform",
+    kind: "Professional work — Parabola9",
+    summary:
+      "Production video-analytics platform turning 10+ live CCTV streams into real-time detection, tracking and event alerts.",
+    tech: [
+      "FastAPI",
+      "AWS Lambda",
+      "Kinesis Video Streams",
+      "S3",
+      "NVIDIA Triton",
+      "YOLO",
+      "BoT-SORT",
+      "InsightFace",
+      "Docker",
+      "AWS EC2",
+      "Akash Network",
+      "Apache NiFi",
+    ],
+    problem:
+      "Facilities relying on live CCTV had no automated way to detect security events, PPE non-compliance, or track individuals across multiple concurrent camera streams in real time — visibility depended on manual monitoring of raw footage.",
+    solution:
+      "Designed and deployed a production video-intelligence platform that ingests 10+ live CCTV streams, runs real-time computer-vision inference (person detection, multi-object tracking, face recognition) and flags security and PPE-compliance events automatically, served through containerized, GPU-accelerated microservices.",
+    contribution:
+      "Built the serverless ingestion pipeline (AWS Lambda, Kinesis Video Streams, S3) and a parallel real-time ingestion path with Apache NiFi; optimized model serving on NVIDIA Triton Inference Server for concurrent multi-stream inference; developed the computer-vision pipeline combining YOLO, BoT-SORT and InsightFace for detection, tracking and face recognition; containerized 5+ AI microservices on Docker/EC2; and built the PPE-compliance detection platform for a government-facility client — collaborating directly with the company's CEO and CTO on architecture and deployment decisions.",
+    outcome:
+      "Eliminated manual video handling, enabled real-time event detection across concurrent streams, reduced model-serving latency, cut deployment time through containerization, and reduced infrastructure cost by moving GPU inference to Akash Network.",
+  },
+  {
+    slug: "sap-ai-chat-assistant",
+    name: "AI Chat Assistant on Enterprise SAP Data",
+    kind: "Client project — US Enterprise Client",
+    summary:
+      "An AI-powered chat assistant that gives business users conversational access to enterprise SAP data, backed by a Databricks semantic layer.",
+    tech: [
+      "FastAPI",
+      "Databricks",
+      "Azure Data Factory",
+      "Semantic Layer",
+      "AI Agents",
+      "Locust",
+    ],
+    problem:
+      "Business users needed a way to ask questions of enterprise SAP data directly, instead of relying on manual reporting or someone else querying raw tables for them — with data scattered across multiple source systems.",
+    solution:
+      "Building an AI-powered chat assistant on top of SAP-sourced business data: ETL pipelines bring data from multiple sources into Databricks tables through a Bronze/Silver/Gold pipeline, a semantic layer sits on top of those tables to give the agent structured context, and the chat agent uses that layer to answer business questions conversationally.",
+    contribution:
+      "Contracted as an AI engineer on the engagement, working across backend systems — developing the FastAPI APIs, building the Azure Data Factory ETL pipelines that ingest Azure DevOps and Azure File Share data into Databricks, contributing to the semantic layer over those tables, and working on the conversational agent logic alongside the engineering team. Also ran large-scale Locust load testing to catch performance bottlenecks ahead of production.",
+    outcome:
+      "A chat assistant that gives business users direct, conversational access to SAP-sourced enterprise data grounded in a structured semantic layer rather than raw table lookups, with backend scalability validated under load ahead of production rollout.",
+  },
+  {
+    slug: "logiq",
+    name: "LogIQ — AI-Powered Observability Platform",
+    kind: "Independent project",
+    summary:
+      "A multi-tenant observability platform that ingests application logs via a lightweight Python SDK and uses AI to surface root-cause analysis, service health, and automated alerts.",
+    tech: [
+      "FastAPI",
+      "PostgreSQL",
+      "React",
+      "Multi-Provider LLMs",
+      "Python SDK",
+      "Cloud Webhooks (AWS/Azure/GCP)",
+    ],
+    liveUrl: "https://logiq.thetechvoyager.in/",
+    liveNote:
+      "Applications integrate via the installable project-monitor-sdk Python package, or via native AWS/Azure/GCP alert webhooks.",
+    problem:
+      "Teams integrating AI or backend services into their applications need a way to monitor logs, understand root causes, and get alerted when something breaks — without standing up and maintaining a full observability stack themselves.",
+    solution:
+      "Built LogIQ, a multi-tenant observability platform: applications ship structured logs to a FastAPI + PostgreSQL backend through a lightweight Python SDK, or through native AWS/Azure/GCP alert webhooks normalized into the same log model. The backend computes per-service health, generates AI-assisted root-cause analysis — backed by a choice of LLM providers (Ollama, OpenAI-compatible, Azure OpenAI, Anthropic, or AWS Bedrock) with a rule-based fallback when AI is disabled or unavailable — and can alert over Slack, Teams, or email. A React dashboard covers log exploration, AI insights, per-service health, and integration management.",
+    contribution:
+      "Designed and built the system end-to-end: the log-ingestion API with idempotent, cursor-paginated querying; the multi-provider AI root-cause-analysis engine with automatic rule-based fallback; per-project LLM and alert-channel configuration so each project can use its own provider or notification channels; the cloud-webhook normalizer that ingests native AWS/Azure/GCP alerts into the same log model; the background worker that drives automatic health-check alerting; the React dashboard; and the installable Python SDK client applications use to ship logs.",
+    outcome:
+      "A working, deployed observability platform — live at logiq.thetechvoyager.in — that turns raw application logs into AI-generated root-cause analysis and proactive alerts instead of manual log-diving, with support for five different LLM providers so it can adapt to whichever one a team already uses.",
+  },
+  {
+    slug: "parabot",
+    name: "ParaBot — AI Chat & File Summarizer",
+    kind: "Independent project",
+    summary:
+      "A Gemini-powered assistant that summarizes and answers questions over text, images, PDFs and websites.",
+    tech: ["FastAPI", "React", "OCR", "Gemini"],
+    repoUrl: "https://github.com/sravancipher/ChatBot_LLM",
+    problem:
+      "Users needed a single assistant that could answer questions and summarize content across very different formats — plain text, images, PDFs and websites — instead of juggling separate tools for each.",
+    solution:
+      "Built an AI chat assistant that ingests text, images, PDFs and website content and provides summarization and Q&A over it, powered by the Gemini API.",
+    contribution:
+      "Built the React front end and the FastAPI back end, integrated OCR for image/PDF text extraction, and connected the Gemini-powered summarization and Q&A pipeline.",
+    outcome:
+      "A working multi-format GenAI assistant, open-sourced on GitHub, demonstrating end-to-end application development from ingestion through UI.",
+  },
+  {
+    slug: "screensaga",
+    name: "ScreenSaga — Full-Stack OTT Platform",
+    kind: "Independent project",
+    summary:
+      "A full-stack streaming platform with real authentication, watchlists, continue-watching and a feedback system.",
+    tech: ["React JS", "Spring Boot", "REST APIs", "MySQL", "SMTP"],
+    repoLinks: [
+      { label: "Frontend Code", url: "https://github.com/sravancipher/screensaga_frontend" },
+      { label: "Backend Code", url: "https://github.com/sravancipher/screensaga_springboot" },
+    ],
+    problem:
+      "Needed to prove out a complete, production-style full-stack product — not just a UI — covering real user authentication, content browsing and personalization end to end.",
+    solution:
+      "Built a full-stack OTT platform for movies and web series with personalized watchlists, season/episode selection, a Continue Watching feature, a feedback system, and secure authentication (email verification, password reset, account deletion).",
+    contribution:
+      "Built both the React front end and the Spring Boot REST API back end, including the MySQL schema, JSON APIs, and SMTP-driven email confirmation flows for authentication.",
+    outcome:
+      "A deployed, publicly viewable OTT platform demonstrating full-stack ownership from database design to UI polish.",
+  },
+  {
+    slug: "stress-prediction",
+    name: "Stress Prediction from Sleep Patterns",
+    kind: "Independent project",
+    summary:
+      "A machine learning model that predicts stress levels from sleep data and surfaces wellness suggestions through a Streamlit interface.",
+    tech: ["Python", "Machine Learning", "Streamlit"],
+    repoUrl: "https://github.com/sravancipher/mini_project",
+    problem:
+      "People often have no easy way to gauge how their sleep patterns are affecting their stress levels, or get simple, practical guidance on what to do about it.",
+    solution:
+      "Built a machine learning model that predicts stress levels from sleep data, with a Streamlit interface where users can enter their own data and get wellness suggestions back.",
+    contribution:
+      "Built the ML model and the Streamlit interface end-to-end as an independent project.",
+    outcome:
+      "A working, interactive tool that turns raw sleep data into a stress-level estimate and practical wellness suggestions.",
+  },
+];
+
+export const education = [
+  {
+    degree: "B.Tech — Computer Science Engineering",
+    school: "RGUKT IIIT Nuzvid",
+    period: "2021 – 2025",
+    detail: "CGPA: 9.0",
+  },
+  {
+    degree: "Pre-University Course (Intermediate)",
+    school: "RGUKT IIIT Nuzvid",
+    period: "2019 – 2021",
+    detail: "CGPA: 9.62",
+  },
+  {
+    degree: "Secondary School (SSC)",
+    school: "Government High School, Srikakulam",
+    period: "2018 – 2019",
+    detail: "CGPA: 10",
+  },
+];
