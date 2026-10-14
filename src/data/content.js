@@ -4,7 +4,7 @@ export const profile = {
   tagline:
     "Building production-grade AI, computer vision, and GenAI-powered applications.",
   summary:
-    "AI/ML Engineer with 2 years of experience building AI/ML and backend solutions using Python, FastAPI, Machine Learning, Generative AI and LLMs. Experienced in developing production-oriented AI pipelines, REST APIs, microservices and cloud-based data workflows using AWS and Azure. Hands-on experience with computer vision models including YOLO and InsightFace, model deployment using Docker and Triton, and data engineering technologies including Azure Data Factory, Databricks and Apache NiFi. Currently involved in R&D on LLM fine-tuning and post-training, exploring SFT, parameter-efficient training and model evaluation, while contributing to an Enterprise AI Harness for intelligent interaction with SAP data and enterprise documents.",
+    "AI/ML Engineer with nearly 2 years of experience building production computer vision and Generative AI systems. Shipped a real-time video analytics platform processing 20+ live CCTV streams (YOLO, InsightFace, NVIDIA Triton, AWS Kinesis Video Streams) and cut end-to-end latency 83%. Builds RAG and knowledge-graph pipelines (Neo4j, FastAPI) for a US client's enterprise AI, and explores LLM fine-tuning in personal R&D. Also builds full-stack applications (React, Spring Boot) in personal projects and published a pip-installable LLM observability SDK on PyPI.",
   availability:
     "Currently full-time at Parabola9 — open to new full-time roles as well as freelance / contract engagements.",
   location: "Mangalagiri, India",
@@ -81,6 +81,7 @@ export const techStack = [
       "InsightFace (Buffalo)",
       "RAG",
       "LangGraph",
+      "LLM Fine-Tuning",
       "Triton Inference Server",
     ],
   },

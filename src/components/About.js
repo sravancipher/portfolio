@@ -7,6 +7,7 @@ const highlights = [
   "Production video-intelligence systems",
   "Direct collaboration with US CEO/CTO stakeholders",
   "GenAI-powered enterprise assistants",
+  "LLM fine-tuning R&D (personal post-training project)",
 ];
 
 function About() {
